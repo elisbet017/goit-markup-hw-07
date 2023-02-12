@@ -42,7 +42,7 @@
               >
             </li>
             <li class="site-nav-item">
-              <a class="site-nav-link link" href>Contacts</a>
+              <a class="site-nav-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -58,7 +58,7 @@
             >
           </li>
         </ul>
-        <button class="button-open-menu" type="button">
+        <button class="button-open-menu" data-menu-open type="button">
           <svg class="open-menu" width="32px" height="22px">
             <use href="./images/icons.svg#icon-open-menu"></use>
           </svg>
@@ -67,9 +67,9 @@
 
       <!-- Menu -->
 
-      <div class="menu">
+      <div class="menu is-hidden" data-menu>
         <div class="menu-container">
-          <button class="menu-close" type="button">
+          <button class="menu-close" data-menu-close type="button">
             <svg class="close-icon" width="8px" height="8px">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -90,44 +90,44 @@
           <nav class="menu-contact">
             <ul class="menu-contact-list list">
               <li class="menu-contact-item">
-                <a class="menu-contact-link-phone link" href="tel:+110001111111"
+                <a class="menu-contact-link-phone menu-contact-link link" href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="menu-contact-item">
                 <a
-                  class="menu-contact-link-mail link"
+                  class="menu-contact-link-mail menu-contact-link link"
                   href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
             </ul>
-              <ul class="menu-soc-list list">
-                <li class="menu-soc-item">
-                  <a class="menu-soc-link link" href="#"
-                    ><svg class="menu-soc-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-instagram"></use></svg
-                  ></a>
-                </li>
-                <li class="menu-soc-item">
-                  <a class="menu-soc-link link" href="#"
-                    ><svg class="menu-soc-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-twitter"></use></svg
-                  ></a>
-                </li>
-                <li class="menu-soc-item">
-                  <a class="menu-soc-link link" href="#"
-                    ><svg class="menu-soc-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-facebook"></use></svg
-                  ></a>
-                </li>
-                <li class="menu-soc-item">
-                  <a class="menu-soc-link link" href="#"
-                    ><svg class="menu-soc-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-linkedin"></use></svg
-                  ></a>
-                </li>
-              </ul>
+            <ul class="menu-soc-list list">
+              <li class="menu-soc-item">
+                <a class="menu-soc-link link" href="#"
+                  ><svg class="menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="menu-soc-item">
+                <a class="menu-soc-link link" href="#"
+                  ><svg class="menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="menu-soc-item">
+                <a class="menu-soc-link link" href="#"
+                  ><svg class="menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="menu-soc-item">
+                <a class="menu-soc-link link" href="#"
+                  ><svg class="menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>
@@ -253,28 +253,28 @@
 
                 <ul class="our-team-soc-list list">
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -294,28 +294,28 @@
                 <p class="our-team-text section-text">Frontend Developer</p>
                 <ul class="our-team-soc-list list">
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -337,28 +337,28 @@
                 <p class="our-team-text section-text">Marketing</p>
                 <ul class="our-team-soc-list list">
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -380,28 +380,28 @@
                 <p class="our-team-text section-text">UI Designer</p>
                 <ul class="our-team-soc-list list">
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="our-team-soc-item">
-                    <a class="our-team-soc-link link" href>
+                    <a class="our-team-soc-link link" href="#">
                       <svg class="our-team-soc-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -422,37 +422,37 @@
 
           <ul class="customers-list list">
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client1"></use></svg
               ></a>
             </li>
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client2"></use></svg
               ></a>
             </li>
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client3"></use></svg
               ></a>
             </li>
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client4"></use></svg
               ></a>
             </li>
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client5"></use></svg
               ></a>
             </li>
             <li class="customers-item">
-              <a class="customers-link" href
+              <a class="customers-link" href="#"
                 ><svg class="customers-icon" width="104px" height="56px">
                   <use href="./images/icons.svg#icon-client6"></use></svg
               ></a>
@@ -479,28 +479,28 @@
           <p class="footer-soc-text">Social media</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
-              <a class="footer-soc-link link" href>
+              <a class="footer-soc-link link" href="#">
                 <svg class="footer-soc-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
-              <a class="footer-soc-link link" href>
+              <a class="footer-soc-link link" href="#">
                 <svg class="footer-soc-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
-              <a class="footer-soc-link link" href>
+              <a class="footer-soc-link link" href="#">
                 <svg class="footer-soc-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
-              <a class="footer-soc-link link" href>
+              <a class="footer-soc-link link" href="#">
                 <svg class="footer-soc-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -609,7 +609,7 @@
             <label class="check-text" for="policy"
               >I accept the terms and conditions of the<a
                 class="check-link"
-                href
+                href="#"
                 >Privacy Policy</a
               ></label
             >
@@ -621,5 +621,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
