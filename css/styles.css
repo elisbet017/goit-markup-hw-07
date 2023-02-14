@@ -229,7 +229,6 @@ img {
   gap: 40px;
 }
 
-
 .menu-contact-link {
   color: var(--text-color);
   font-size: 20px;
@@ -946,7 +945,7 @@ img {
 }
 
 .check-text {
-  display: flex;
+  display: inline-block;
   color: #757575;
   font-size: 12px;
   line-height: 1.33;
@@ -956,6 +955,7 @@ img {
 
 .check-text::before {
   content: " ";
+  display: inline-block;
   min-width: 16px;
   max-width: 16px;
   min-height: 16px;
