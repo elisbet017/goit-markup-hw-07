@@ -1,0 +1,131 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding: 120px 15px;
+  }
+
+  .small-container {
+    max-width: 1158px;
+    padding: 120px 15px;
+  }
+
+  /* Header */
+
+  .header {
+    padding: 0;
+  }
+
+  .site-header {
+    justify-content: center;
+    max-width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .site-nav {
+    margin-left: 76px;
+  }
+
+  .contact-list {
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 332px;
+  }
+
+  .contact-link {
+    font-size: inherit;
+    line-height: 1.5;
+  }
+
+  /* Hero */
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-container {
+    width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-btn {
+    margin-top: 48px;
+  }
+
+  /* Our-features */
+
+  .icon-wrap {
+    display: flex;
+  }
+
+  .our-features-list {
+    flex-wrap: nowrap;
+  }
+
+  .our-features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .our-features-icon {
+    display: block;
+  }
+
+  .our-features-subtitle {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .our-features-text {
+    font-weight: inherit;
+  }
+
+  /* Offers */
+
+  .offers {
+    display: block;
+  }
+
+  .offers-container {
+    padding-top: 0;
+  }
+
+  /* Our team */
+
+  .our-team-list {
+    flex-wrap: nowrap;
+  }
+
+  /* Customers */
+
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 0;
+  }
+
+  .footer-wrap {
+    padding: 100px 15px;
+    flex-wrap: nowrap;
+    width: 1158px;
+  }
+
+  .footer-social {
+    margin-left: 120px;
+  }
+
+  .footer-communicate {
+    margin-top: 0;
+    margin-left: 80px;
+  }
+}

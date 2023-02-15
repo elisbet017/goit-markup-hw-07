@@ -17,7 +17,9 @@
   }
 
   .small-container {
-    max-width: 552px;
+    max-width: 582px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 104px;
   }
 
@@ -28,7 +30,6 @@
   }
 
   .site-header {
-    display: flex;
     align-items: center;
   }
 
@@ -87,8 +88,6 @@
     gap: 4px;
   }
 
-  .contact-link {
-  }
 
   .contact-link {
     color: var(--text-color);
@@ -107,9 +106,20 @@
     display: none;
   }
 
+  /* Hero */
+
   .hero {
     padding: 112px 137px 108px 137px;
+    background-image: var(--gradient), url('../images/hero-bg/dark-bg-desk.jpg');
   }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient), url('../images/hero-bg/dark-bg-desk-2x.jpg');
+  }
+}
 
   .hero-title {
     font-size: 56px;
