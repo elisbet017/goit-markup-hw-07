@@ -11,17 +11,12 @@
 
   /* Header */
 
-  .header {
+  /* .header {
     padding: 0;
-  }
+  } */
 
   .site-header {
-    justify-content: center;
     max-width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 
   .site-nav {

@@ -944,7 +944,7 @@ img {
 }
 
 .check-text {
-  display: inline-block;
+  display: inline-flex;
   color: #757575;
   font-size: 12px;
   line-height: 1.33;
