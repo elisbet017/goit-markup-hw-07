@@ -67,19 +67,24 @@ img {
   overflow: hidden;
 }
 
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+
+}
+
 .container {
   min-width: 288px;
   margin-right: auto;
   margin-left: auto;
-  padding: 96px 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .small-container {
   min-width: 288px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 96px;
-  padding-bottom: 128px;
   text-align: center;
 }
 
@@ -119,7 +124,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
 
 .site-nav-list {
   display: none;
@@ -218,6 +222,10 @@ img {
   color: var(--focus-color);
 }
 
+.active-page {
+  color: var(--focus-color);
+}
+
 .menu-contact {
   margin-top: 64px;
 }
@@ -246,7 +254,9 @@ img {
 
 .menu-contact-link-phone {
   font-weight: 600;
+  font-size: 36px;
   line-height: 1.11;
+  color: var(--hover-color);
 }
 
 .menu-soc-list {
@@ -280,7 +290,10 @@ img {
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 112px 56px 112px 54px;
+  padding-top: 112px;
+  padding-right: 15px;
+  padding-bottom: 112px;
+  padding-left: 15px;
   background: var(--dark-color);
 
   background-image: var(--gradient), url("../images/hero-bg/dark-bg-mob.jpg");
@@ -377,9 +390,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.our-features {
-  padding-bottom: 0;
-}
 
 .our-features-subtitle {
   font-size: 36px;
@@ -435,6 +445,7 @@ img {
 
 .our-team {
   background: var(--light-color);
+  padding-bottom: 128px;
 }
 
 .our-team-list {
@@ -540,10 +551,6 @@ img {
   fill: var(--focus-color);
 }
 
-.section {
-  min-width: 288px;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -644,11 +651,14 @@ img {
 
 .footer {
   min-width: 288px;
-  padding: 96px 16px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background: var(--dark-color);
 }
 
 .footer-wrap {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -968,7 +978,7 @@ img {
 }
 
 .check-link {
-  margin-left: 3px;
+  margin-left: 1px;
   color: var(--hover-color);
 }
 

@@ -12,15 +12,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  } 
+
   .container {
-    max-width: 736px;
+    width: 768px;
   }
 
   .small-container {
-    max-width: 582px;
+    width: 768px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 104px;
   }
 
   .header {
@@ -118,8 +122,8 @@
   /* Hero */
 
   .hero {
-    padding: 112px 137px 108px 137px;
     background-image: var(--gradient), url('../images/hero-bg/dark-bg-desk.jpg');
+    padding-bottom: 108px;
   }
 
 @media (min-device-pixel-ratio: 2),
@@ -159,15 +163,22 @@
 
   /* Our team */
 
+  .our-team {
+    padding-bottom: 104px;
+  }
+
   .our-team-list {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     row-gap: 64px;
     column-gap: 24px;
   }
 
+  /* Customers */
+
   .customers-container {
-    max-width: 584px;
+    width: 552px;
   }
 
   .customers-list {

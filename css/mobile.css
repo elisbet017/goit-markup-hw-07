@@ -12,12 +12,13 @@
 }
 
 @media screen and (min-width: 480px) {
+
   .container {
-    max-width: 428px;
+    width: 480px;
   }
 
   .small-container {
-    max-width: 428px;
+    width: 480px;
   }
 
   .hero {
