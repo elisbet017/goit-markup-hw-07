@@ -11,20 +11,10 @@
   --gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
-@media screen and (min-width: 768px) {
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  } 
+@media screen and (min-width: 768px) { 
 
   .container {
-    width: 768px;
-  }
-
-  .small-container {
-    width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 768px;
   }
 
   .header {
@@ -36,7 +26,7 @@
 
   .site-header {
     justify-content: center;
-    max-width: 736px;
+    max-width: 768px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -124,6 +114,7 @@
   .hero {
     background-image: var(--gradient), url('../images/hero-bg/dark-bg-desk.jpg');
     padding-bottom: 108px;
+    padding-top: 112px;
   }
 
 @media (min-device-pixel-ratio: 2),
@@ -138,6 +129,7 @@
     font-size: 56px;
     line-height: 1.07;
     text-transform: none;
+    width: 496px;
   }
 
   .hero-btn {
@@ -177,16 +169,13 @@
 
   /* Customers */
 
-  .customers-container {
-    width: 552px;
-  }
-
   .customers-list {
     column-gap: 24px;
+    justify-content: center;
   }
 
   .customers-item {
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 234px) / 3);
   }
 
   /* Footer */

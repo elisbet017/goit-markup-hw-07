@@ -27,16 +27,14 @@
     <!-- Header -->
 
     <header class="header">
-      <div class="site-header">
-          <a class="logo-color logo link" href="./index.html"
-            >Web<span class="logo-color-header">Studio</span></a
-          >
-          <nav class="site-nav">
+      <div class="container site-header">
+        <a class="logo-color logo link" href="./index.html"
+          >Web<span class="logo-color-header">Studio</span></a
+        >
+        <nav class="site-nav">
           <ul class="site-nav-list list">
             <li class="site-nav-item active-link">
-              <a class="site-nav-link link active" href="./studio.html"
-                >Studio</a
-              >
+              <a class="site-nav-link link active" href="./studio.html">Studio</a>
             </li>
             <li class="site-nav-item">
               <a class="site-nav-link link" href="./portfolio.html"
@@ -44,7 +42,7 @@
               >
             </li>
             <li class="site-nav-item">
-              <a class="site-nav-link link" href>Contacts</a>
+              <a class="site-nav-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -66,6 +64,9 @@
           </svg>
         </button>
       </div>
+
+      <!-- Menu -->
+
       <div class="menu is-hidden" data-menu>
         <div class="menu-container">
           <button class="menu-close" data-menu-close type="button">
@@ -76,7 +77,7 @@
           <nav class="menu-nav">
             <ul class="menu-list list">
               <li class="menu-item">
-                <a class="menu-link link active-page" href="./studio.html">Studio</a>
+                <a class="menu-link link active-page" href="./studio.html" >Studio</a>
               </li>
               <li class="menu-item">
                 <a class="menu-link link" href="./portfolio.html">Portfolio</a>
@@ -136,7 +137,7 @@
     <main>
       <!-- Hero -->
 
-      <section class="hero section">
+      <section class="hero">
         <div class="hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" data-modal-open type="button">
@@ -216,25 +217,34 @@
             <li class="offers-item">
               <img
                 class="offers-img"
-                srcset="./images/what-are-we-doing/img1.jpg 1x, ./images/what-are-we-doing/img1(2x).jpg 2x"
                 src="./images/what-are-we-doing/img1.jpg"
                 alt="A handy site on your computer"
+                srcset="
+                  ./images/what-are-we-doing/img1.jpg     1x,
+                  ./images/what-are-we-doing/img1(2x).jpg 2x
+                "
               />
             </li>
             <li class="offers-item">
               <img
                 class="offers-img"
-                srcset="./images/what-are-we-doing/img2.jpg 1x, ./images/what-are-we-doing/img2(2x).jpg 2x"
                 src="./images/what-are-we-doing/img2.jpg"
                 alt="Chats on your phone"
+                srcset="
+                  ./images/what-are-we-doing/img2.jpg     1x,
+                  ./images/what-are-we-doing/img2(2x).jpg 2x
+                "
               />
             </li>
             <li class="offers-item">
               <img
                 class="offers-img"
-                srcset="./images/what-are-we-doing/img3.jpg 1x, ./images/what-are-we-doing/img3(2x).jpg 2x"
                 src="./images/what-are-we-doing/img3.jpg"
                 alt="Synchronizing your phone and computer"
+                srcset="
+                  ./images/what-are-we-doing/img3.jpg     1x,
+                  ./images/what-are-we-doing/img3(2x).jpg 2x
+                "
               />
             </li>
           </ul>
@@ -244,7 +254,7 @@
       <!-- Our team -->
 
       <section class="our-team section">
-        <div class="small-container">
+        <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="our-team-list list">
             <li class="our-team-item">
