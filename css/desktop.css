@@ -1,11 +1,10 @@
 @media screen and (min-width: 1200px) {
-
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
   .container {
-    max-width: 1200px;
+    max-width: 1158px;
   }
 
   /* Header */
@@ -81,7 +80,6 @@
     display: block;
     padding-top: 0;
   }
-
 
   /* Our team */
 
