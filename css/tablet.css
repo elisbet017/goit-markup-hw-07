@@ -26,11 +26,6 @@
 
   .site-header {
     justify-content: center;
-    max-width: 768px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     align-items: center;
   }
 
